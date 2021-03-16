@@ -1,0 +1,15 @@
+.section3 {
+    background-color: #34547A;
+}
+
+.project3 {
+    padding: 100px 22%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.project3-img {
+    width: 141px;
+    height: 50px;
+}

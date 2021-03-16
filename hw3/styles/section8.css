@@ -1,0 +1,29 @@
+.footer {
+    background-color: #34547A;
+    display: flex;
+    height: 151px;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.copyright-info {
+    color: rgb(255, 255, 255);
+    line-height: 2; 
+}
+
+.copyright-name {
+    font-size: 21px;
+}
+
+.copyright-text {
+    font-size: 13px;
+
+}
+
+.vk {
+    display: flex;
+    justify-content:space-between;
+    gap: 22px;
+    align-items: center;
+}
