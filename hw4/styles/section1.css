@@ -1,0 +1,56 @@
+.section1 {
+    background-image: url(../images/s1-it-developer.png);
+    background-color: black;
+    background-size: cover;
+}
+
+.nav-list-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 21% 35px 50%;
+}
+
+.nav-list-text {
+    color: white; 
+    text-decoration: none;
+    padding-bottom: 40px;
+}
+
+.nav-list-text:hover {
+    border-bottom: solid white 3px;
+}
+
+
+.s1-block1-h, .s1-block1-t, .s1-block1-btn {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.s1-block1 {
+    padding-top: 220px;
+    padding-bottom: 335px;
+}
+
+.s1-block1-h {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.s1-block1-t {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.s1-block1-btn {
+    padding-top: 50px;
+}
+
+.s1-block1-btn-style {
+    width: 200px;
+    height: 45px;
+    background-color: #4985FF;
+    color: white;
+    border-radius: 22px;
+    border: none;  
+}

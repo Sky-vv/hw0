@@ -1,0 +1,43 @@
+footer {
+    padding: 70px 20% 30px 20%;
+    background-color: #F6F6F8;
+}
+
+.f-block1 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    padding-bottom: 70px;
+}
+
+.f-block1-h {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.f-block1-t1, .f-block1-c {
+    font-size: 14px;
+    color: #999999;
+}
+
+.f-block1-nav {
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+}
+
+.f-block1-nav::before {
+    content: ">";
+    margin-right: 10px;
+}
+
+.f-block1-t1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.f-block1-c {
+    text-align: center;
+    padding-top: 30px;
+}
