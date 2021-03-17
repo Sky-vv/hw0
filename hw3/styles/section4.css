@@ -1,0 +1,60 @@
+.section4 {
+    display: flex;
+    justify-content:center;
+}
+
+.skill {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 101px 0;
+    width: 1150px;
+    height: 450px;   
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-h {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.skill-t {
+    color: #727272;
+    line-height: 1.2;
+}
+
+.skill-l {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    min-width: 450px;    
+}
+
+.top-line {
+    position: relative;
+    background-color: #2a3d7a;
+    width: 350px;
+    margin: 0px 0px;
+    height: 4px;
+  }
+  
+.bottom-line {
+    opacity: 0.8;
+    height: 4px;
+    background:#80808096;
+    width: 445px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.skill-ph {
+    width: 555px;
+    height: 450px;
+}

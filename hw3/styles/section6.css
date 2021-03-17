@@ -1,0 +1,49 @@
+.section6 {
+    background: #f7f5f5;
+    padding-top: 28px;
+    padding-bottom: 100px;
+}
+
+.task-report {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.task-eye {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.task, .report {
+    width: 480px;
+    height: 480px;
+    z-index: 2;
+}
+
+.eye {
+    position: absolute;
+    z-index: 1;
+    bottom: 190px;
+}
+
+.task-report-background {
+    display: inline-flex;
+    background-color: #35547A;
+}
+
+.report:hover, .task:hover {
+    opacity: 0.2;
+}
+
+.microsoft-img {
+    width: 255px;
+    height: 120px;
+}
+
+.microsoft {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 2%;
+}

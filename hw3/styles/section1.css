@@ -1,0 +1,92 @@
+.section1 {
+    background-color: #EEEFF1;
+    height: 700px;
+    padding-top: 57px;
+    padding-bottom: 146px;
+    text-align: center;
+}
+
+.box-logo-menu { 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 44%;
+    text-align: end; 
+    padding-right: 355px;
+}
+
+.main-nav {
+    text-align: start;
+    width: 55%;
+    font-weight: 600;
+    letter-spacing: 0.1rem; 
+}
+
+.active-nav.main-nav-href {
+    font-weight: 600;
+    color: #34547A;
+}
+
+.main-nav-list {
+    display: flex;
+    list-style: none;   
+}
+
+.main-nav-item {
+    margin-left: 42px;
+}
+
+.main-nav-href {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.main-nav-href.active {
+    color: #34547A;
+}
+
+
+.box2-s1 { 
+    display: flex;
+    justify-content: center;
+    margin-top: 146px;
+}
+
+.note-pic {
+ 
+    width: 49%;
+    text-align: end;
+    padding-right: 110px;    
+}
+
+.box-content{
+    width: 48%;
+    text-align: left;
+    padding-left: 14px; 
+}
+
+.box-content-h {
+    font-size: 3rem;
+    font-weight: 600; 
+}
+
+.box-content-t {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    color: #727272;
+}
+
+.box-content-btn {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 146px; 
+}

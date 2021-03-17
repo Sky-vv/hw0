@@ -1,0 +1,22 @@
+.section2 {
+    background: #ffffff;
+}
+
+.sect-h, .sect-t {
+    display: flex;
+    justify-content: center;
+}
+
+.sect-h {
+    padding-top: 119px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.sect-t {
+    line-height: 1.5;
+    color: #727272;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
