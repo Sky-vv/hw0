@@ -1,0 +1,76 @@
+.section6 {
+    text-align: center;
+    padding: 70px 20% 85px 20%;
+    background-color: white;
+    background: url(../images/s6-back-layer.png) no-repeat;
+    background-position-y: top;
+}
+
+.s6-block1-h {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.s6-block1-t {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.s6-block1-pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 85px;
+}
+
+.s6-btn-play {
+    position: absolute;
+}
+
+.s6-block2-subs {
+    display: flex;
+    justify-content: center;
+}
+
+.s6-block2-email, .s6-block2-btn2 {
+    height: 45px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.s6-block2-email {
+    width: 300px;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.s6-block2-btn2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 190px;
+    background-color: #4985FF;
+    color: white;
+    padding-left: 30px;
+}
+
+.s6-block2-h {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 85px;
+}
+
+.s6-block2-t1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #999999;
+}
+
+.s6-block2-t2 {
+    font-size: 13px;
+    padding-top: 50px;
+    color: #999999;
+}
