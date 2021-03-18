@@ -51,7 +51,6 @@
     grid-area: s1-pic1;
     padding-left: 170px;
     padding-top: 75px;
-
 }
 
 .s1-grid-text {
@@ -60,8 +59,6 @@
     font-family: Montserrat;
     font-size: 45px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
@@ -74,9 +71,6 @@
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 28px;
     text-transform: uppercase;
-    
 }

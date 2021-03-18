@@ -181,8 +181,6 @@
     font-family: Montserrat;
     font-size: 38px;
     font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 28px;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -194,8 +192,6 @@
     font-family: Merriweather;
     font-size: 17px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 28px;
     text-transform: uppercase;
 }
