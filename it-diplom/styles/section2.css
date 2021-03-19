@@ -1,0 +1,150 @@
+.section2 {
+    height: 990px;
+    background-color: #f8fafa;
+    padding: 125px 10% 0 10%; 
+ }
+
+.s2-block1 {
+    width: 1066px;
+    height: 743px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "h-text h-text"
+        "pic1 s2text"
+        "point point"  ;
+}
+
+.s2-grid-text {
+    grid-area: h-text;
+}
+
+.s2-block1-h1 {
+    opacity: 0.9;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.s2-block1-t1 {
+    opacity: 0.62;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+
+
+.s2-grid-pic1 {
+    grid-area: pic1;
+    margin-top: 170px;
+    position:relative;
+    width: 479px;
+    height: 412px;
+}
+
+.s2-grid-pic1 .s2-block1-pic2 {
+    position: absolute;
+    width: 392px;
+    height: 483px;
+    top: -35px;
+    left: 43px;
+}
+
+.s2-grid-allpoints {
+    grid-area: point;
+    margin-top: 80px;
+    margin-left: 190px;
+    display: flex;
+    gap: 4px;
+}
+
+.s2-grid-point {
+    display: flex;
+    position: relative;
+}
+
+.s2-block1-greypic3 {
+    z-index: 1;
+}
+
+.s2-block1-bluepic4 {
+    position: absolute;
+    z-index: 0;
+}
+
+.s2-block1-greypic3:hover {
+    opacity: 0.2;
+
+}
+
+.s2-grid-text2 {
+    grid-area: s2text;
+    width: 476px;
+    height: 414px;
+    display: grid;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 113px;
+}
+
+.s2-block1-h2 {
+    opacity: 0.75;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.s2-block1-t2 {
+    opacity: 0.74;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    margin-top: -10px;
+}
+
+.s2-block1-h3 {
+    opacity: 0.75;
+    color: #000000;
+    font-family: Merriweather;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.s2-block1-t2 {
+    opacity: 0.74;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+}

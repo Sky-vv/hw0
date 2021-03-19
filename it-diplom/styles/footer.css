@@ -1,0 +1,39 @@
+.footer {
+    background-color: #262b2e;
+    height: 311px;
+}
+
+.f-block1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items:center;
+    margin-top: 70px;
+}
+
+.f-block1-h {
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.f-block1-links {
+    margin-top: -19px;
+    margin-bottom: 35px;
+}
+
+.f-block1-copyright {
+    opacity: 0.4;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+}
