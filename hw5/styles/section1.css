@@ -1,0 +1,76 @@
+.section1 {
+    height: 807px;
+    background-color: #eff0f2;
+    opacity: 0.99;
+    padding: 62px 12% 76px 10%;
+}
+
+.s1-block1 {
+    width: 1138px;
+    height: 667px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "s1-logo s1-logo s1-menu"
+        "h-text h-text h-text"
+        "s1-btn s1-btn s1-pic1"  ;
+}
+
+.s1-grid-logo {
+    grid-area: s1-logo;
+}
+
+.s1-grid-menu {
+    grid-area: s1-menu;
+    justify-self: end;
+}
+
+.s1-grid-text {
+    margin-top: 25px;
+    grid-area: h-text;
+}
+
+.s1-block1-styletext {
+    display: inline;
+	background-color: #76f4ea;
+	padding: 0 10px 0 10px;
+	color: #505050;
+}
+
+.s1-grid-btn {
+    grid-area: s1-btn;
+    justify-self: end;
+    padding-top: 50px;
+    padding-right: 75px;
+}
+
+.s1-grid-pic1 {
+    width: 69px;
+    height: 68px;
+    grid-area: s1-pic1;
+    padding-left: 170px;
+    padding-top: 75px;
+}
+
+.s1-grid-text {
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+    color: #505050;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.s1-block1-btn {
+    width: 202px;
+    height: 53px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
