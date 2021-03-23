@@ -74,6 +74,11 @@
     .s4-box2__btn {
         display: block;
         margin: 0 auto;
-
+    }
+    .s4-box2__title {
+        text-align: center;
+    }
+    .s4-box2__text {
+        text-align: center;
     }
 }

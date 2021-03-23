@@ -76,6 +76,10 @@ margin-bottom: 20px;
     border-radius: 22px;
 }
 
+.f-box3__f {
+    margin: 0 15px;
+}
+
 .f-box3__text {
     padding-top: 15px;
     padding-bottom: 10px;
@@ -96,4 +100,5 @@ margin-bottom: 20px;
     .f-box3-about {
         margin-right: 90px;
     }
+    
 }

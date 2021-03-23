@@ -88,4 +88,10 @@
     .s3-box1__btn1 {
         margin: 0 0 20px 0;
     }
+    .s3-box1__title {
+        text-align: center;
+    }
+    .s3-box1__text {
+        text-align: center;
+    }
 }
