@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+}
+
+.b1 {
+    border: red 2px solid;
+}
+
+.wrapper {
+    display: grid;
+    grid-template: minmax(523px, auto);
+    min-height: 100%;
+    row-gap: 51px;
+    grid-template-areas:
+		"section1"
+		"section2"
+        "section3"
+        "section4"
+        "section5"
+        "section6"
+        "section7"
+		"footer";
+}
+

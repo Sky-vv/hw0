@@ -1,0 +1,118 @@
+.section5 {
+    grid-area: section5;
+}
+
+.s5-block1{
+    max-width: 1260px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.s5-box1 {
+    margin-top: 44px;  
+    padding: 0 0 0 1%;
+}
+
+.s5-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s5-box1__btns {
+    width: 426px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5-box1__title {
+    padding-left: 10px;
+    width: 374px;
+    height: 171px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+    color: #000000;
+    letter-spacing: 0.2px;
+    margin-bottom: 48px;
+}
+
+.s5-box1__text {
+    padding-left: 10px;
+    width: 301px;
+    height: 162px;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5C5C5C;
+    margin-bottom: 37px;
+    letter-spacing: 0.2px;
+}
+
+.s5-box2-mobile {
+    display: none;
+}
+
+.s5-box1__btn1 {
+    width: 216px;
+    height: 52px;
+    background: #03D6F3;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border:none;
+}
+
+.s5-box1__btn2 {
+    width: 203px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #30D7BA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #30D7BA;
+    border:none;
+}
+.s5-box2__pic1 {
+    width: 100%;
+}
+@media only all and (max-width: 1024px) {
+    .s5-box2 {
+        display: none;
+    }
+    .s5-box2-mobile {
+        display: block;
+        width: 100%;
+    }
+    .s5-box1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .s5-box1__btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s5-box1__btn1 {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+    .s5-box1__btn2 {
+        width: 220px;
+    }
+    .s5-box1__title {
+        margin-bottom: 100px;
+    }
+}
